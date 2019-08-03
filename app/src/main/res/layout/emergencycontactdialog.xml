@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/button2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DAE6F1"
+    android:padding="17dp">
+
+
+    <TextView
+        android:id="@+id/ENstatement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingBottom="15dp"
+        android:text="Emergency Contact"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/addname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ENstatement"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <EditText
+        android:id="@+id/Econtactname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addnumber"
+        android:layout_toEndOf="@+id/addname"
+        android:layout_toRightOf="@+id/addname"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/addnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addname"
+        android:layout_marginTop="28dp"
+        android:layout_toLeftOf="@+id/Econtactname"
+        android:layout_toStartOf="@+id/Econtactname"
+        app:srcCompat="@android:drawable/sym_action_call" />
+
+    <EditText
+        android:id="@+id/Econtactnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/addnumber"
+        android:layout_toEndOf="@+id/addnumber"
+        android:layout_toRightOf="@+id/addnumber"
+        android:ems="10"
+        android:hint="Phone number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/addcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ENstatement"
+        android:layout_alignRight="@+id/ENstatement"
+        android:layout_below="@+id/Econtactnumber"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="46dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addcontact"
+        android:layout_alignBottom="@+id/addcontact"
+        android:layout_toEndOf="@+id/addnumber"
+        android:layout_toRightOf="@+id/addnumber"
+        android:text="Cancel" />
+
+</RelativeLayout>
+

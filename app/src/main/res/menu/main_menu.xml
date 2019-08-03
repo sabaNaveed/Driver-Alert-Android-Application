@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item"
+        android:title="Person Detection"
+        android:color="#FF4081">
+    </item>
+    <item
+        android:id="@+id/item1"
+        android:title="Emergency Contacts">
+
+        <menu>
+            <item
+                android:id="@+id/subitem1a"
+                android:title="Add Contact"/>
+
+            <item
+                android:id="@+id/subitem1b"
+                android:title="View Contacts"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Profile Settings"
+        android:color="#FF4081">
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:title="Alarm Settings"
+        android:color="#FF4081">
+    </item>
+    <item
+        android:id="@+id/item4"
+        android:title="Instructions">
+    </item>
+
+        </menu>

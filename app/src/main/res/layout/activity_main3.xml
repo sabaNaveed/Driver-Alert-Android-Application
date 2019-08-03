@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTextHint"
+    tools:context=".Main3Activity">
+
+    <Button
+        android:textColor="@color/colorAccent"
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginTop="184dp"
+        android:text="Start Detection"
+        android:textStyle="bold"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="40dp"
+        android:text="Drive Alertly Drive Safely!"
+        android:textColor="@color/colorAccent"
+        android:textStyle="italic"
+        />
+
+
+
+</RelativeLayout>

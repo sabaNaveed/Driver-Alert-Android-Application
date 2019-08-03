@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTextHint"
+    tools:context=".AlarmActivity"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+
+        ></include>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Select alarm option to listen to sound"
+        android:textColor="@color/colorAccent"
+        android:gravity="bottom" />
+
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:textColor="@color/colorAccent"
+    android:layout_gravity="center"
+    android:padding="140dp"
+    android:id="@+id/p">
+
+
+    <RadioButton android:id="@+id/a"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alarm1"
+        android:onClick="onRadioButtonClicked"/>
+
+    <RadioButton android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alarm2"
+        android:textColor="@color/colorAccent"
+        android:onClick="onRadioButtonClicked"/>
+
+    <RadioButton android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alarm3"
+        android:textColor="@color/colorAccent"
+        android:onClick="onRadioButtonClicked"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Back"
+        android:textColor="@color/colorAccent"
+        />
+</RadioGroup>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Set Media Player Volume"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginTop="10dp" />
+
+
+
+
+</LinearLayout>

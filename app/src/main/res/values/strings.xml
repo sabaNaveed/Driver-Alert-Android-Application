@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Driver Alert Application</string>
+    <string name="Instructions">\n\n This life saving application will work on its best to keep you alert on the road by not letting you feel drowsy.
+ \n\n1.You can add emergency contatcs on which notifications through messages will be sent.\n\n
+2.Place mobile in your car\'s phone holder in  such a way your face is completely visible.\n\n
+3.Press\'Start Detecction\' button, it will begin to monitor your face features.\n\n
+4. Alarm will be generated on detecting drowsiness.\n\n
+5. Stop the alarm immediately.\n\n
+6. If Alarm not stopped withen 5 minutes emergency contacts will be notified.\n\n
+7. The person detection feature is to asist in detecting pedestrians and persons on the road.\n\n
+        \t\t\t\t\tSTAY SAFE STAY ALERT
+    </string>
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+</resources>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorTextHint"
+    tools:context=".ShowUsersActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+
+        ></include>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewEnd"
+        android:text=" Update or delete by selecting the contact"
+        android:textColor="@color/colorAccent"
+        android:gravity="end" />
+
+    <ListView android:layout_height="match_parent" android:layout_width="match_parent"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/listUser"/>
+
+</LinearLayout>

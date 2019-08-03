@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/masterWindow" >
+
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/fd_activity_surface_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <TextView
+        android:layout_marginLeft="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="location not found"
+        android:id="@+id/textview1"
+        android:layout_alignParentTop="true"
+        android:textColor="#80ff0000"/>
+    <ToggleButton
+        android:id="@+id/togglebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onToggleClick"
+        android:textOff="Frontal Camera"
+        android:textOn="Back Camera"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="exit"
+        android:onClick="f2"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+    <ToggleButton
+        android:id="@+id/togglebut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="onToggle"
+        android:textOff="brightness on"
+        android:textOn="brightness off"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>
